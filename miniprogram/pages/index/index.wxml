@@ -15,7 +15,6 @@
     </view>
   </view>
 
-
   <!-- 上传图片 -->
   <view class="uploader">
     <view class="uploader-text" bindtap="doUpload">
@@ -52,6 +51,13 @@
   <view class="uploader">
     <navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
       <text>云调用</text>
+    </navigator>
+  </view>
+
+  <!-- 生物认证 -->
+  <view class="uploader">
+    <navigator url="../checkIden/checkIden" open-type="navigate" class="uploader-text">
+      <text>生物认证</text>
     </navigator>
   </view>
 
